@@ -24,6 +24,7 @@
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-normal: 400;
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-normal: 0em;
     --leading-tight: 1.25;
@@ -275,6 +276,9 @@
   .bg-\[\#009379\] {
     background-color: #009379;
   }
+  .bg-\[\#F8F9FF\] {
+    background-color: #F8F9FF;
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -357,6 +361,10 @@
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
   }
   .tracking-normal {
     --tw-tracking: var(--tracking-normal);
