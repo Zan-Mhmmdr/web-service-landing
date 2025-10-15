@@ -190,17 +190,20 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .block {
-    display: block;
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
   }
   .flex {
     display: flex;
   }
   .grid {
     display: grid;
-  }
-  .inline {
-    display: inline;
   }
   .table {
     display: table;
@@ -222,6 +225,9 @@
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -283,6 +289,9 @@
   .gap-\[30px\] {
     gap: 30px;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -317,6 +326,9 @@
   .bg-\[\#009379\] {
     background-color: #009379;
   }
+  .bg-\[\#E5F4F2\] {
+    background-color: #E5F4F2;
+  }
   .bg-\[\#F8F9FF\] {
     background-color: #F8F9FF;
   }
@@ -341,6 +353,18 @@
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
   }
+  .px-13 {
+    padding-inline: calc(var(--spacing) * 13);
+  }
+  .px-14 {
+    padding-inline: calc(var(--spacing) * 14);
+  }
+  .px-\[\#50px\] {
+    padding-inline: #50px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
@@ -349,6 +373,9 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
   }
   .py-14 {
     padding-block: calc(var(--spacing) * 14);
@@ -417,6 +444,9 @@
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
   }
+  .text-\[\#2D2D2D0\] {
+    color: #2D2D2D0;
+  }
   .text-\[\#2D2D2D\] {
     color: #2D2D2D;
   }
@@ -429,14 +459,23 @@
   .text-\[\#5A5A5A\] {
     color: #5A5A5A;
   }
-  .text-\[\#16px\] {
-    color: #16px;
-  }
   .text-\[\#009379\] {
     color: #009379;
   }
   .text-\[\#F8F9FF\] {
     color: #F8F9FF;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[1\] {
+    color: 1;
+  }
+  .text-\[16\] {
+    color: 16;
+  }
+  .text-\[16ox\] {
+    color: 16ox;
   }
   .text-blue-500 {
     color: var(--color-blue-500);
