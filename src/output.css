@@ -493,6 +493,9 @@
   .text-\[16ox\] {
     color: 16ox;
   }
+  .text-\[16px0\] {
+    color: 16px0;
+  }
   .text-blue-500 {
     color: var(--color-blue-500);
   }
