@@ -392,6 +392,9 @@
   .border-b-gray-300 {
     border-bottom-color: var(--color-gray-300);
   }
+  .bg-\[\#2D2D2D\] {
+    background-color: #2D2D2D;
+  }
   .bg-\[\#009379\] {
     background-color: #009379;
   }
@@ -463,6 +466,9 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
   }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
@@ -590,6 +596,9 @@
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[\#FF\] {
+    color: #FF;
   }
   .text-\[\#\] {
     color: #;
