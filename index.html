@@ -65,8 +65,8 @@
     </div>
 
     <div
-      id="hero-bar"
-      class="flex flex-col gap-8 items-center p-8 border-y-gray-300 border-y-1"
+      id="logo-bar"
+      class="flex flex-col gap-8 items-center justify-center py-[40px] border-y-gray-300 border-y-1 md:flex-row md:gap-auto"
     >
       <div class="flex gap-16">
         <img src="src/assets/logos/_Client logo (1).svg" alt="" />
@@ -80,7 +80,10 @@
       </div>
     </div>
 
-    <div id="features" class="px-8 py-14 flex flex-col gap-7">
+    <div
+      id="features"
+      class="px-8 py-14 flex flex-col gap-7 md:px-8 md:py-[100px] md:gap-[40px]"
+    >
       <div class="flex flex-col gap-5 items-center">
         <h1 class="text-4xl font-semibold font-poppins">Features</h1>
         <p class="text-center text-[#2d2d2d] leading-normal">
@@ -89,73 +92,82 @@
         </p>
       </div>
 
-      <div
-        class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100"
-      >
-        <img src="src/assets/icons/Icon.svg" alt="" />
-        <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
-        <p class="text-center text-[#2D2D2D] text-lg">
-          Tailor Anima's Landing Page UI Kit to your unique style and brand with
-          customisable components, in no time!
-        </p>
-        <a
-          class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
-          href=""
+      <div class="hidden md:flex md:flex-col gap-5">
+        <div
+          class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100 md:gap-5"
         >
-          Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
-        /></a>
-      </div>
-      <div
-        class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100"
-      >
-        <img src="src/assets/icons/Icon (1).svg " alt="" />
-        <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
-        <p class="text-center text-[#2D2D2D] text-lg">
-          No need to worry about screen size. Anima's Landing Page UI Kit adapts
-          to any screen size, from desktop to mobile.
-        </p>
-        <a
-          class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
-          href=""
+          <img src="src/assets/icons/Icon.svg" alt="" />
+          <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
+          <p class="text-center text-[#2D2D2D] text-lg">
+            Tailor Anima's Landing Page UI Kit to your unique style and brand
+            with customisable components, in no time!
+          </p>
+          <a
+            class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
+            href=""
+          >
+            Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
+          /></a>
+        </div>
+        <div
+          class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100"
         >
-          Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
-        /></a>
-      </div>
+          <img src="src/assets/icons/Icon (1).svg " alt="" />
+          <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
+          <p class="text-center text-[#2D2D2D] text-lg">
+            No need to worry about screen size. Anima's Landing Page UI Kit
+            adapts to any screen size, from desktop to mobile.
+          </p>
+          <a
+            class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
+            href=""
+          >
+            Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
+          /></a>
+        </div>
 
-      <div
-        class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100"
-      >
-        <img src="src/assets/icons/Icon (2).svg" alt="" />
-        <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
-        <p class="text-center text-[#2D2D2D] text-lg">
-          Zero coding skills required, Anima's Landing Page UI Kit empowers you
-          to create stunning landing pages with ease.
-        </p>
-        <a
-          class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
-          href=""
+        <div
+          class="bg-[#FFFFFF] flex flex-col gap-7 items-center px-7 py-10 rounded-xl border border-blue-100"
         >
-          Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
-        /></a>
+          <img src="src/assets/icons/Icon (2).svg" alt="" />
+          <h1 class="font-semibold text-2xl text-[#2D2D2D]">Fast Building</h1>
+          <p class="text-center text-[#2D2D2D] text-lg">
+            Zero coding skills required, Anima's Landing Page UI Kit empowers
+            you to create stunning landing pages with ease.
+          </p>
+          <a
+            class="flex items-center gap-2 font-semibold text-lg text-[#009379]"
+            href=""
+          >
+            Learn More<img src="src/assets/icons/ArrowRight.svg" alt=""
+          /></a>
+        </div>
       </div>
     </div>
 
-    <div id="highlight-cta" class="px-8 py-14 flex flex-col gap-5 items-center">
-      <img src="src/assets/images/Visuals.png" alt="" />
+    <div
+      id="highlight-cta"
+      class="px-8 py-14 flex flex-col gap-5 items-center md:flex-row md:py-[100px]"
+    >
+      <img src="src/assets/images/Visuals.png" class="w-[320px]" alt="" />
       <div class="flex flex-col items-center gap-10">
-        <h1 class="font-semibold text-3xl text-center">
-          Get Landing Page UI Kit Today!
-        </h1>
-        <p class="text-center text-[#2D2D2D] text-lg">
-          Break the Figma limits and explore the endless possibilities with
-          Anima.
-        </p>
-        <a
-          href=""
-          class="flex items-center font-semibold justify-center mx-auto w-[221px] gap-2 px-12 py-4 rounded-2xl text-[#F8F9FF] bg-[#009379]"
-          ><i><img src="src/assets/logos/RocketLaunch.svg" alt="" /></i>Get
-          Started</a
-        >
+        <div class="flex flex-col gap-10">
+          <h1 class="font-semibold text-3xl text-center md:text-start">
+            Get Landing Page UI Kit Today!
+          </h1>
+          <p class="text-center text-[#2D2D2D] text-lg md:text-start">
+            Break the Figma limits and explore the endless possibilities with
+            Anima.
+          </p>
+        </div>
+        <div class="flex justify-center md:justify-start w-full">
+          <a
+            href=""
+            class="flex items-center font-semibold justify-center  w-[221px] gap-2  px-12 py-4 rounded-2xl text-[#F8F9FF] bg-[#009379]"
+            ><i><img src="src/assets/logos/RocketLaunch.svg" alt="" /></i>Get
+            Started</a
+          >
+        </div>
       </div>
     </div>
 
