@@ -7,6 +7,11 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-orange-200: oklch(90.1% 0.076 70.697);
+    --color-orange-300: oklch(83.7% 0.128 66.29);
+    --color-orange-500: oklch(70.5% 0.213 47.604);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-600: oklch(66.6% 0.179 58.318);
     --color-blue-100: oklch(93.2% 0.032 255.585);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-slate-700: oklch(37.2% 0.044 257.287);
@@ -208,6 +213,9 @@
   .h-14 {
     height: calc(var(--spacing) * 14);
   }
+  .h-\[60px\] {
+    height: 60px;
+  }
   .h-\[320px\] {
     height: 320px;
   }
@@ -222,6 +230,9 @@
   }
   .w-\[221px\] {
     width: 221px;
+  }
+  .w-\[260px\] {
+    width: 260px;
   }
   .w-\[320px\] {
     width: 320px;
@@ -364,6 +375,9 @@
   .bg-\[\#E5F4F2\] {
     background-color: #E5F4F2;
   }
+  .bg-\[\#F2BFAF\] {
+    background-color: #F2BFAF;
+  }
   .bg-\[\#F8F9FF\] {
     background-color: #F8F9FF;
   }
@@ -373,6 +387,9 @@
   .bg-\[\#ffffff\] {
     background-color: #ffffff;
   }
+  .bg-orange-300 {
+    background-color: var(--color-orange-300);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -381,6 +398,9 @@
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
+  }
+  .p-\[30px\] {
+    padding: 30px;
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -393,6 +413,9 @@
   }
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
+  }
+  .px-\[30px\] {
+    padding-inline: 30px;
   }
   .px-\[50px\] {
     padding-inline: 50px;
@@ -463,6 +486,9 @@
   }
   .text-\[21px\] {
     font-size: 21px;
+  }
+  .text-\[28px\] {
+    font-size: 28px;
   }
   .text-\[38px\] {
     font-size: 38px;
@@ -566,11 +592,6 @@
       display: none;
     }
   }
-  .md\:w-full {
-    @media (width >= 48rem) {
-      width: 100%;
-    }
-  }
   .md\:flex-col {
     @media (width >= 48rem) {
       flex-direction: column;
@@ -601,11 +622,6 @@
       gap: calc(var(--spacing) * 5);
     }
   }
-  .md\:gap-8 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 8);
-    }
-  }
   .md\:gap-10 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 10);
@@ -621,11 +637,6 @@
       gap: 40px;
     }
   }
-  .md\:px-0 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 0);
-    }
-  }
   .md\:px-8 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 8);
@@ -639,11 +650,6 @@
   .md\:px-\[50px\] {
     @media (width >= 48rem) {
       padding-inline: 50px;
-    }
-  }
-  .md\:py-0 {
-    @media (width >= 48rem) {
-      padding-block: calc(var(--spacing) * 0);
     }
   }
   .md\:py-5 {
