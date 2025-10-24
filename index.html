@@ -495,10 +495,14 @@
       </div>
     </div>
 
-    <div id="highlighted-cta-2 " class="p-[30px]">
-      <div class="flex flex-col items-center bg-[#F2BFAF] rounded-2xl">
+    <div id="highlighted-cta-2" class="p-[30px]">
+      <div
+        class="flex flex-col items-center bg-[#F2BFAF] rounded-2xl md:flex-row"
+      >
         <div class="px-[30px] py-[40px] flex flex-col gap-10 items-center">
-          <h1 class="font-semibold text-[28px] text-[#2D2D2D] text-center">
+          <h1
+            class="font-semibold md:font-bold text-[28px] text-[#2D2D2D] text-center"
+          >
             Get Landing Page UI Kit Today!
           </h1>
           <p class="text-center text-[#2D2D2D] text-[16px]">
@@ -510,29 +514,40 @@
               class="flex justify-center gap-2 bg-[#009379] px-[50px] py-4 text-[#FFFFFF] rounded-2xl w-[260px] h-[60px]"
             >
               Get Started
-              <img src="src/assets/icons/ArrowRight.svg" class="" alt="" />
+              <img
+                src="src/assets/icons/ArrowRight.svg"
+                class="text-white"
+                alt=""
+              />
             </button>
           </div>
         </div>
-        <div class="relative flex flex-col items-center overflow-hidden w-full">
-          <!-- Ellipse kiri bawah -->
+        <div
+          class="relative flex flex-col items-center overflow-hidden w-full md:flex"
+        >
+          <!-- Ellipse 4 -->
           <img
-            class="absolute  z-0 w-40 h-40"
+            class="absolute left-[-2.5px] top-[344px] z-0 w-[320px] h-[237.81px]"
             src="src/assets/images/Ellipse 4.png"
             alt=""
           />
 
-          <!-- Ellipse kanan bawah -->
+          <!-- Ellipse 5 -->
           <img
-            class="absolute  z-0 w-40 h-40"
+            class="absolute left-[162.6px] top-[170px] z-0 w-[143.01px] h-[143.01px]"
             src="src/assets/images/Ellipse 5.png"
             alt=""
           />
 
           <!-- Mobile Mockup di depan -->
           <img
-            class="relative z-20 w-64"
+            class="flex md:hidden relative z-20 w-64"
             src="src/assets/images/Mobile Mockup.png"
+            alt=""
+          />
+          <img
+            class="hidden md:flex relative z-20 w-62"
+            src="src/assets/images/md-Mobile Mockup.png"
             alt=""
           />
         </div>
@@ -610,18 +625,6 @@
       </div>
     </div>
 
-    <footer class="bg-[#2D2D2D] flex flex-col gap-5 px-5 py-6">
-      <div>
-        <div class="flex gap-4">
-          <img src="src/assets/icons/b-ig.svg" alt="" />
-          <img src="src/assets/icons/b-ball.svg " alt="" />
-          <img src="src/assets/icons/b-github.svg " alt="" />
-          <img src="src/assets/icons/b-x.svg " alt="" />
-        </div>
-      </div>
-      <p class="text-sm text-[#FFFFFF] font-light">
-        © 2023 Anima Landing Page Ui Kit.
-      </p>
-    </footer>
+  
   </body>
 </html>
