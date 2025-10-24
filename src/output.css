@@ -200,14 +200,26 @@
   .top-10 {
     top: calc(var(--spacing) * 10);
   }
+  .top-\[130\.41px\] {
+    top: 130.41px;
+  }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .right-\[130\.41px\] {
+    right: 130.41px;
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
   }
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+  .left-\[12\.5px\] {
+    left: 12.5px;
   }
   .z-0 {
     z-index: 0;
@@ -358,6 +370,9 @@
   }
   .gap-\[60px\] {
     gap: 60px;
+  }
+  .overflow-hidden {
+    overflow: hidden;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
