@@ -14,7 +14,7 @@
   </head>
   <body class="bg-[#F8F9FF]">
     <nav
-      class="flex items-center justify-center md:justify-between w-full py-4 gap-1 md:px-[30px] md:py-5 xl:px-[50px] "
+      class="flex items-center justify-center md:justify-between w-full py-4 gap-1 md:px-[30px] md:py-5 xl:px-[50px]"
     >
       <div class="flex gap-[6px] items-center">
         <i class="text-[#2D2D2D]"
@@ -27,34 +27,33 @@
 
       <div class="xl:flex hidden gap-[50px]">
         <a
-          class="md:flex gap-[30px] hidden text-[#009379] bg-[#F8F9FF] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
+          class="cursor-pointer md:flex gap-[30px] hidden text-[#009379] bg-[#F8F9FF] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
           >Contact</a
         >
         <a
-          class="md:flex gap-[30px] hidden text-[#009379] bg-[#E5F4F2] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
+          class="cursor-pointer md:flex gap-[30px] hidden text-[#009379] bg-[#E5F4F2] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
           >How it Works</a
         >
         <a
-          class="md:flex gap-[30px] hidden text-white text-[#009379] bg-[#009379] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
+          class="cursor-pointer md:flex gap-[30px] hidden text-white bg-[#009379] px-[50px] font-semibold text-[16px] py-4 rounded-2xl"
           >Get Started</a
         >
       </div>
-    
     </nav>
 
     <div
       id="hero-section"
-      class="flex flex-col gap-10 px-8 py-16 md:px-8 md:py-[100px] md:gap-10 items-center"
+      class="flex flex-col gap-10 px-8 py-16 md:px-8 md:py-[100px] md:gap-10 xl:px-[55px] xl:py-[120px] xl:flex-row justify-between items-center"
     >
-      <div class="flex flex-col gap-8 md-gap-[30px]">
+      <div class="flex flex-col gap-8 md:gap-[30px] xl:gap-[50px]">
         <h1
-          class="text-[#2D2D2D] font-bold text-4xl leading-tight tracking-normal text-center font-poppins md:text-[67px]"
+          class="text-[#2D2D2D] font-bold text-4xl xl:text-[67px] xl:text-start leading-tight tracking-normal text-center font-poppins md:text-[67px]"
         >
-          Create <br />
+          Create <br class="xl:hidden flex"/>
           Engaging <br />Landing Pages
         </h1>
         <p
-          class="text-[#5A5A5A] text-center leading-normal text-[16px] md:text-[21px]"
+          class="text-[#5A5A5A] text-center leading-normal xl:text-start text-[16px] md:text-[21px]"
         >
           Build beautiful landing pages in record
           <br class="md:hidden flex" />time with
@@ -62,16 +61,23 @@
           <br class="md:flex hidden" />
           Page UI kit for <br class="md:hidden flex" />Figma. No code required!
         </p>
-        <a
-          href=""
-          class="flex items-center font-semibold justify-center mx-auto w-[221px] gap-2 px-12 py-4 rounded-2xl text-[#F8F9FF] bg-[#009379] md:px-[50px]"
-          ><i><img src="src/assets/logos/RocketLaunch.svg" alt="" /></i>Get
-          Started</a
-        >
+        <div class="flex justify-center xl:justify-start gap-[18px]">
+          <a
+            href=""
+            class="flex items-center font-semibold justify-between  w-[221px] gap-2 px-12 py-4 rounded-2xl text-[#F8F9FF] bg-[#009379] md:px-[50px]"
+            ><i><img src="src/assets/logos/RocketLaunch.svg" alt="" /></i>Get
+            Started</a
+          >
+          <a
+            href=""
+            class="xl:flex hidden border-2 justify-center items-center font-semibold  w-[221px] gap-2 px-12 py-4 rounded-2xl text-[#009379] bg-[#FFFFFF] md:px-[50px]"
+            >How it works</a
+          >
+        </div>
       </div>
       <img
         src="src/assets/images/Visuals-hero.png"
-        class="w-[320px] h-[320px] text-"
+        class="w-[320px] h-[320px] xl:w-[450px] xl:h-[450px] text-"
       />
     </div>
 
@@ -635,7 +641,7 @@
         </div>
       </div>
     </div>
-    
+
     <footer
       class="bg-[#2D2D2D] flex flex-col items-center gap-5 px-5 md:px-[30px] py-6 md:flex-row justify-between"
     >
