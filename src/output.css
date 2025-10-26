@@ -721,9 +721,19 @@
       padding-block: calc(var(--spacing) * 5);
     }
   }
+  .md\:py-\[80px\] {
+    @media (width >= 48rem) {
+      padding-block: 80px;
+    }
+  }
   .md\:py-\[100px\] {
     @media (width >= 48rem) {
       padding-block: 100px;
+    }
+  }
+  .md\:py-\[px\] {
+    @media (width >= 48rem) {
+      padding-block: px;
     }
   }
   .md\:text-start {
@@ -782,9 +792,49 @@
       justify-content: flex-start;
     }
   }
+  .xl\:gap-10 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 10);
+    }
+  }
+  .xl\:gap-20 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 20);
+    }
+  }
+  .xl\:gap-30 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 30);
+    }
+  }
+  .xl\:gap-40 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 40);
+    }
+  }
+  .xl\:gap-50 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 50);
+    }
+  }
+  .xl\:gap-\[10px\] {
+    @media (width >= 80rem) {
+      gap: 10px;
+    }
+  }
+  .xl\:gap-\[30px\] {
+    @media (width >= 80rem) {
+      gap: 30px;
+    }
+  }
   .xl\:gap-\[50px\] {
     @media (width >= 80rem) {
       gap: 50px;
+    }
+  }
+  .xl\:gap-\[60px\] {
+    @media (width >= 80rem) {
+      gap: 60px;
     }
   }
   .xl\:px-0 {
@@ -807,9 +857,44 @@
       padding-block: calc(var(--spacing) * 0);
     }
   }
+  .xl\:py-\[10px\] {
+    @media (width >= 80rem) {
+      padding-block: 10px;
+    }
+  }
+  .xl\:py-\[50px\] {
+    @media (width >= 80rem) {
+      padding-block: 50px;
+    }
+  }
+  .xl\:py-\[60px\] {
+    @media (width >= 80rem) {
+      padding-block: 60px;
+    }
+  }
+  .xl\:py-\[80px\] {
+    @media (width >= 80rem) {
+      padding-block: 80px;
+    }
+  }
+  .xl\:py-\[100px\] {
+    @media (width >= 80rem) {
+      padding-block: 100px;
+    }
+  }
   .xl\:py-\[120px\] {
     @media (width >= 80rem) {
       padding-block: 120px;
+    }
+  }
+  .xl\:py-\[1000px\] {
+    @media (width >= 80rem) {
+      padding-block: 1000px;
+    }
+  }
+  .xl\:py-\[px\] {
+    @media (width >= 80rem) {
+      padding-block: px;
     }
   }
   .xl\:text-start {
