@@ -742,14 +742,29 @@
       display: none;
     }
   }
+  .xl\:h-\[424px\] {
+    @media (width >= 80rem) {
+      height: 424px;
+    }
+  }
   .xl\:h-\[450px\] {
     @media (width >= 80rem) {
       height: 450px;
     }
   }
+  .xl\:w-\[370px\] {
+    @media (width >= 80rem) {
+      width: 370px;
+    }
+  }
   .xl\:w-\[450px\] {
     @media (width >= 80rem) {
       width: 450px;
+    }
+  }
+  .xl\:w-\[470px\] {
+    @media (width >= 80rem) {
+      width: 470px;
     }
   }
   .xl\:w-\[540px\] {
