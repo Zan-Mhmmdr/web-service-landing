@@ -214,9 +214,6 @@
   .z-20 {
     z-index: 20;
   }
-  .mx-auto {
-    margin-inline: auto;
-  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -301,17 +298,11 @@
   .items-end {
     align-items: flex-end;
   }
-  .items-start {
-    align-items: flex-start;
-  }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
-  }
-  .justify-start {
-    justify-content: flex-start;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
@@ -506,9 +497,6 @@
   .text-center {
     text-align: center;
   }
-  .text-start {
-    text-align: start;
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -595,9 +583,6 @@
   }
   .text-\[\#009379\] {
     color: #009379;
-  }
-  .text-\[\#009300937979\] {
-    color: #009300937979;
   }
   .text-\[\#F8F9FF\] {
     color: #F8F9FF;
@@ -721,19 +706,9 @@
       padding-block: calc(var(--spacing) * 5);
     }
   }
-  .md\:py-\[80px\] {
-    @media (width >= 48rem) {
-      padding-block: 80px;
-    }
-  }
   .md\:py-\[100px\] {
     @media (width >= 48rem) {
       padding-block: 100px;
-    }
-  }
-  .md\:py-\[px\] {
-    @media (width >= 48rem) {
-      padding-block: px;
     }
   }
   .md\:text-start {
@@ -772,14 +747,14 @@
       height: 450px;
     }
   }
-  .xl\:w-\[150\] {
-    @media (width >= 80rem) {
-      width: 150;
-    }
-  }
   .xl\:w-\[450px\] {
     @media (width >= 80rem) {
       width: 450px;
+    }
+  }
+  .xl\:w-\[540px\] {
+    @media (width >= 80rem) {
+      width: 540px;
     }
   }
   .xl\:flex-row {
@@ -787,19 +762,14 @@
       flex-direction: row;
     }
   }
+  .xl\:justify-center {
+    @media (width >= 80rem) {
+      justify-content: center;
+    }
+  }
   .xl\:justify-start {
     @media (width >= 80rem) {
       justify-content: flex-start;
-    }
-  }
-  .xl\:gap-10 {
-    @media (width >= 80rem) {
-      gap: calc(var(--spacing) * 10);
-    }
-  }
-  .xl\:gap-20 {
-    @media (width >= 80rem) {
-      gap: calc(var(--spacing) * 20);
     }
   }
   .xl\:gap-30 {
@@ -807,19 +777,9 @@
       gap: calc(var(--spacing) * 30);
     }
   }
-  .xl\:gap-40 {
-    @media (width >= 80rem) {
-      gap: calc(var(--spacing) * 40);
-    }
-  }
   .xl\:gap-50 {
     @media (width >= 80rem) {
       gap: calc(var(--spacing) * 50);
-    }
-  }
-  .xl\:gap-\[10px\] {
-    @media (width >= 80rem) {
-      gap: 10px;
     }
   }
   .xl\:gap-\[30px\] {
@@ -837,11 +797,6 @@
       gap: 60px;
     }
   }
-  .xl\:px-0 {
-    @media (width >= 80rem) {
-      padding-inline: calc(var(--spacing) * 0);
-    }
-  }
   .xl\:px-\[50px\] {
     @media (width >= 80rem) {
       padding-inline: 50px;
@@ -850,16 +805,6 @@
   .xl\:px-\[55px\] {
     @media (width >= 80rem) {
       padding-inline: 55px;
-    }
-  }
-  .xl\:py-0 {
-    @media (width >= 80rem) {
-      padding-block: calc(var(--spacing) * 0);
-    }
-  }
-  .xl\:py-\[10px\] {
-    @media (width >= 80rem) {
-      padding-block: 10px;
     }
   }
   .xl\:py-\[50px\] {
@@ -872,29 +817,9 @@
       padding-block: 60px;
     }
   }
-  .xl\:py-\[80px\] {
-    @media (width >= 80rem) {
-      padding-block: 80px;
-    }
-  }
-  .xl\:py-\[100px\] {
-    @media (width >= 80rem) {
-      padding-block: 100px;
-    }
-  }
   .xl\:py-\[120px\] {
     @media (width >= 80rem) {
       padding-block: 120px;
-    }
-  }
-  .xl\:py-\[1000px\] {
-    @media (width >= 80rem) {
-      padding-block: 1000px;
-    }
-  }
-  .xl\:py-\[px\] {
-    @media (width >= 80rem) {
-      padding-block: px;
     }
   }
   .xl\:text-start {
@@ -902,9 +827,25 @@
       text-align: start;
     }
   }
+  .xl\:text-\[21px\] {
+    @media (width >= 80rem) {
+      font-size: 21px;
+    }
+  }
+  .xl\:text-\[50px\] {
+    @media (width >= 80rem) {
+      font-size: 50px;
+    }
+  }
   .xl\:text-\[67px\] {
     @media (width >= 80rem) {
       font-size: 67px;
+    }
+  }
+  .xl\:font-bold {
+    @media (width >= 80rem) {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
     }
   }
 }
