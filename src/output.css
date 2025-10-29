@@ -832,6 +832,11 @@
       padding-block: 50px;
     }
   }
+  .xl\:py-\[60\] {
+    @media (width >= 80rem) {
+      padding-block: 60;
+    }
+  }
   .xl\:py-\[60px\] {
     @media (width >= 80rem) {
       padding-block: 60px;
