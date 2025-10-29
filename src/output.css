@@ -762,11 +762,6 @@
       width: 450px;
     }
   }
-  .xl\:w-\[470px\] {
-    @media (width >= 80rem) {
-      width: 470px;
-    }
-  }
   .xl\:w-\[540px\] {
     @media (width >= 80rem) {
       width: 540px;
@@ -775,6 +770,11 @@
   .xl\:flex-row {
     @media (width >= 80rem) {
       flex-direction: row;
+    }
+  }
+  .xl\:justify-baseline {
+    @media (width >= 80rem) {
+      justify-content: baseline;
     }
   }
   .xl\:justify-center {
@@ -810,6 +810,11 @@
   .xl\:gap-\[60px\] {
     @media (width >= 80rem) {
       gap: 60px;
+    }
+  }
+  .xl\:p-\[60px\] {
+    @media (width >= 80rem) {
+      padding: 60px;
     }
   }
   .xl\:px-\[50px\] {
