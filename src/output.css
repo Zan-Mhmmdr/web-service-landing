@@ -772,9 +772,9 @@
       flex-direction: row;
     }
   }
-  .xl\:justify-baseline {
+  .xl\:justify-between {
     @media (width >= 80rem) {
-      justify-content: baseline;
+      justify-content: space-between;
     }
   }
   .xl\:justify-center {
@@ -802,6 +802,11 @@
       gap: 30px;
     }
   }
+  .xl\:gap-\[40px\] {
+    @media (width >= 80rem) {
+      gap: 40px;
+    }
+  }
   .xl\:gap-\[50px\] {
     @media (width >= 80rem) {
       gap: 50px;
@@ -817,6 +822,11 @@
       padding: 60px;
     }
   }
+  .xl\:px-\[40px\] {
+    @media (width >= 80rem) {
+      padding-inline: 40px;
+    }
+  }
   .xl\:px-\[50px\] {
     @media (width >= 80rem) {
       padding-inline: 50px;
@@ -827,14 +837,14 @@
       padding-inline: 55px;
     }
   }
+  .xl\:py-\[40px\] {
+    @media (width >= 80rem) {
+      padding-block: 40px;
+    }
+  }
   .xl\:py-\[50px\] {
     @media (width >= 80rem) {
       padding-block: 50px;
-    }
-  }
-  .xl\:py-\[60\] {
-    @media (width >= 80rem) {
-      padding-block: 60;
     }
   }
   .xl\:py-\[60px\] {
